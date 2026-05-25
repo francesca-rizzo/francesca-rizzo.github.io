@@ -1659,3 +1659,20 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.profile-pic {
+  width: 180px;      /* adjust size */
+  height: auto;
+  border-radius: 10px; /* optional */
+  flex-shrink: 0;
+}
+
+.about-container p {
+  margin: 0;
+}
